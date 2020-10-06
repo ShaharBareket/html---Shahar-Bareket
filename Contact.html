@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/Contact.css">
+</head>
+
+<body>
+    <img class="bg" src="https://i.pinimg.com/originals/07/03/6e/07036e12e9ca047f542437befa8872d3.jpg">
+
+    <div class="contact">
+
+        <h1>Contact Us</h1>
+        <h5>Please fill in this form in a decent manner</h5>
+        <label class="h">First Name<span style="color:red">*</span></label><br>
+        <input type="text" class="fName" name="firstName" placeholder="Your name.."><br><br>
+
+        <label class="h">Last Name<span style="color:red">*</span></label><br>
+        <input type="text" class="lName" name="lastName" placeholder="Your last name.."><br><br>
+
+        <label class="h">Email<span style="color:red">*</span></label>
+        <input type="text" class="eMail" name="eMail" placeholder="Your email..">
+        <h6>example@example.com</h6>
+
+        <label class="h">Message<span style="color:red">*</span></label><br>
+        <textarea class="message" name="message" placeholder="Write something.." style="height:200px"></textarea><br><br>
+
+        <form class="popup" target="_blank" onclick="popUpText()" action="index.html"><span class="popuptext" id="myPopup">Thank You:)</span>
+            <input class="send" type="submit" value="Send">
+        </form>
+    </div>
+
+
+    </div>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
